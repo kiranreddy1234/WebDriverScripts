@@ -1,0 +1,32 @@
+2020-03-27 18:03:441 INFO  TestBase:64 - Initialize WebDriver: 32751037
+2020-03-27 18:03:446 INFO  TestBase:66 - Initialize Browser : Chrome 
+2020-03-27 18:03:578 INFO  TestBase:77 - **************bootstrapDropdownMethod  Started***************
+2020-03-27 18:03:958 INFO  AllTestCases:111 - Bootstrap Dropdown Method is finished...
+2020-03-27 18:03:963 INFO  TestBase:106 - **************bootstrapDropdownMethod  Finished ***************
+2020-03-27 18:03:965 INFO  TestBase:77 - **************brokenLinkMethod  Started***************
+2020-03-27 18:03:734 INFO  AllTestCases:155 - Broken links are there in a webpage 
+2020-03-27 18:03:738 INFO  TestBase:106 - **************brokenLinkMethod  Finished ***************
+2020-03-27 18:03:742 INFO  TestBase:77 - **************dropdownMethod  Started***************
+2020-03-27 18:03:371 INFO  TestBase:106 - **************dropdownMethod  Finished ***************
+2020-03-27 18:03:375 INFO  TestBase:77 - **************dropdownMethod  Started***************
+2020-03-27 18:03:79 INFO  TestBase:106 - **************dropdownMethod  Finished ***************
+2020-03-27 18:03:80 INFO  TestBase:77 - **************dropdownMethod  Started***************
+2020-03-27 18:03:49 INFO  TestBase:106 - **************dropdownMethod  Finished ***************
+2020-03-27 18:03:54 INFO  TestBase:77 - **************dropdownMethod  Started***************
+2020-03-27 18:03:317 INFO  TestBase:95 - capturing Failed Test screen...
+2020-03-27 18:03:322 INFO  TestBase:106 - **************dropdownMethod  Finished ***************
+2020-03-27 18:03:326 INFO  TestBase:77 - **************fullPageScreenshot  Started***************
+2020-03-27 18:03:251 INFO  AllTestCases:199 - Fullpage Screenshot is takened
+2020-03-27 18:03:257 INFO  TestBase:106 - **************fullPageScreenshot  Finished ***************
+2020-03-27 18:03:259 INFO  TestBase:77 - **************handlingMultipleWindows  Started***************
+2020-03-27 18:03:62 INFO  AllTestCases:74 - Handling Multiple Tabs is finished...
+2020-03-27 18:03:65 INFO  TestBase:106 - **************handlingMultipleWindows  Finished ***************
+2020-03-27 18:03:67 INFO  TestBase:77 - **************particularElementScreenshot  Started***************
+2020-03-27 18:03:22 INFO  TestBase:106 - **************particularElementScreenshot  Finished ***************
+2020-03-27 18:03:24 INFO  TestBase:77 - **************particularElementScreenshot  Started***************
+2020-03-27 18:03:257 INFO  TestBase:106 - **************particularElementScreenshot  Finished ***************
+2020-03-27 18:03:259 INFO  TestBase:77 - **************particularElementScreenshot  Started***************
+2020-03-27 18:03:420 INFO  TestBase:106 - **************particularElementScreenshot  Finished ***************
+2020-03-27 18:03:421 INFO  TestBase:77 - **************particularElementScreenshot  Started***************
+2020-03-27 18:03:796 INFO  TestBase:95 - capturing Failed Test screen...
+2020-03-27 18:03:797 INFO  TestBase:106 - **************particularElementScreenshot  Finished ***************

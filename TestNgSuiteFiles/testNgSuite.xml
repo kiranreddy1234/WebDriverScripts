@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteExample">
+
+   <listeners>
+  
+		<listener class-name="reports.ExtentReporterNG" />
+		
+		<listener class-name="retryAnalyser.MyTransformer" />
+		
+	</listeners>
+
+
+	<test name="Test Case One">
+	
+		<classes>
+		
+			<class name="webDriver_Scripts.BootstrapDropDown"/>
+			
+		</classes>
+		
+	</test>
+	
+	<test name="Test Case Two">
+	
+		<classes>
+		
+			<class name="webDriver_Scripts.DropDownExample"/>
+			
+		</classes>
+		
+	</test>
+	
+</suite>
