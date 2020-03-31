@@ -1,14 +1,14 @@
-2020-03-28 19:03:346 INFO  TestBase:64 - Initialize WebDriver: 32751037
-2020-03-28 19:03:487 INFO  TestBase:66 - Initialize Browser : Chrome 
-2020-03-28 19:03:63 INFO  TestBase:77 - **************bootstrapDropdownMethod  Started***************
-2020-03-28 19:03:239 INFO  TestBase:106 - **************bootstrapDropdownMethod  Finished ***************
-2020-03-28 19:03:241 INFO  TestBase:77 - **************bootstrapDropdownMethod  Started***************
-2020-03-28 19:03:981 INFO  AllTestCases:111 - Bootstrap Dropdown Method is finished...
-2020-03-28 19:03:983 INFO  TestBase:106 - **************bootstrapDropdownMethod  Finished ***************
-2020-03-28 19:03:985 INFO  TestBase:77 - **************brokenLinkMethod  Started***************
-2020-03-28 19:03:104 INFO  TestBase:106 - **************brokenLinkMethod  Finished ***************
-2020-03-28 19:03:107 INFO  TestBase:77 - **************brokenLinkMethod  Started***************
-2020-03-28 19:03:161 INFO  TestBase:106 - **************brokenLinkMethod  Finished ***************
-2020-03-28 19:03:165 INFO  TestBase:77 - **************brokenLinkMethod  Started***************
-2020-03-28 19:03:874 INFO  TestBase:106 - **************brokenLinkMethod  Finished ***************
-2020-03-28 19:03:877 INFO  TestBase:77 - **************brokenLinkMethod  Started***************
+2020-03-31 18:03:921 INFO  TestBase:64 - Initialize WebDriver: 1219704
+2020-03-31 18:03:127 INFO  TestBase:66 - Initialize Browser : Chrome 
+2020-03-31 18:03:345 INFO  TestBase:77 - **************bootstrapDropdownMethod  Started***************
+2020-03-31 18:03:363 INFO  AllTestCases:107 - Bootstrap Dropdown Method is finished...
+2020-03-31 18:03:382 INFO  TestBase:106 - **************bootstrapDropdownMethod  Finished ***************
+2020-03-31 18:03:383 INFO  TestBase:77 - **************brokenLinkMethod  Started***************
+2020-03-31 18:03:287 INFO  AllTestCases:151 - Broken links are there in a webpage 
+2020-03-31 18:03:290 INFO  TestBase:106 - **************brokenLinkMethod  Finished ***************
+2020-03-31 18:03:291 INFO  TestBase:77 - **************fullPageScreenshot  Started***************
+2020-03-31 18:03:871 INFO  AllTestCases:195 - Fullpage Screenshot is takened
+2020-03-31 18:03:874 INFO  TestBase:106 - **************fullPageScreenshot  Finished ***************
+2020-03-31 18:03:877 INFO  TestBase:77 - **************handlingMultipleWindows  Started***************
+2020-03-31 18:03:720 INFO  AllTestCases:70 - Handling Multiple Tabs is finished...
+2020-03-31 18:03:723 INFO  TestBase:106 - **************handlingMultipleWindows  Finished ***************

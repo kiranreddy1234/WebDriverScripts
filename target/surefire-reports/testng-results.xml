@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTestsSuite" duration-ms="138277" started-at="2020-03-31T18:29:05 IST" finished-at="2020-03-31T18:31:24 IST">
+    <groups>
+    </groups>
+    <test name="Test Case1" duration-ms="138277" started-at="2020-03-31T18:29:05 IST" finished-at="2020-03-31T18:31:24 IST">
+      <class name="testCases.AllTestCases">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.AllTestCases@17030a6]" name="beforeSuite" is-config="true" duration-ms="249" started-at="2020-03-31T18:29:05 IST" finished-at="2020-03-31T18:29:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.AllTestCases@17030a6]" name="beforeTest" is-config="true" duration-ms="30447" started-at="2020-03-31T18:29:05 IST" finished-at="2020-03-31T18:29:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.AllTestCases@17030a6]" name="beforeMethod" is-config="true" duration-ms="212" started-at="2020-03-31T18:29:37 IST" finished-at="2020-03-31T18:29:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.AllTestCases.bootstrapDropdownMethod()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="bootstrapDropdownMethod()[pri:0, instance:testCases.AllTestCases@17030a6]" name="bootstrapDropdownMethod" duration-ms="10017" started-at="2020-03-31T18:29:37 IST" finished-at="2020-03-31T18:29:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bootstrapDropdownMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.AllTestCases@17030a6]" name="getResult" is-config="true" duration-ms="1" started-at="2020-03-31T18:29:47 IST" finished-at="2020-03-31T18:29:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bootstrapDropdownMethod status=SUCCESS method=AllTestCases.bootstrapDropdownMethod()[pri:0, instance:testCases.AllTestCases@17030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.AllTestCases@17030a6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-31T18:29:47 IST" finished-at="2020-03-31T18:29:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.AllTestCases.brokenLinkMethod()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="brokenLinkMethod()[pri:0, instance:testCases.AllTestCases@17030a6]" name="brokenLinkMethod" duration-ms="30904" started-at="2020-03-31T18:29:47 IST" finished-at="2020-03-31T18:30:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinkMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.AllTestCases@17030a6]" name="getResult" is-config="true" duration-ms="1" started-at="2020-03-31T18:30:18 IST" finished-at="2020-03-31T18:30:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=brokenLinkMethod status=SUCCESS method=AllTestCases.brokenLinkMethod()[pri:0, instance:testCases.AllTestCases@17030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.AllTestCases@17030a6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-31T18:30:18 IST" finished-at="2020-03-31T18:30:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.AllTestCases.fullPageScreenshot() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fullPageScreenshot()[pri:0, instance:testCases.AllTestCases@17030a6]" name="fullPageScreenshot" duration-ms="32581" started-at="2020-03-31T18:30:18 IST" finished-at="2020-03-31T18:30:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullPageScreenshot -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.AllTestCases@17030a6]" name="getResult" is-config="true" duration-ms="2" started-at="2020-03-31T18:30:50 IST" finished-at="2020-03-31T18:30:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fullPageScreenshot status=SUCCESS method=AllTestCases.fullPageScreenshot()[pri:0, instance:testCases.AllTestCases@17030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.AllTestCases@17030a6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-31T18:30:50 IST" finished-at="2020-03-31T18:30:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.AllTestCases.handlingMultipleWindows() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="handlingMultipleWindows()[pri:0, instance:testCases.AllTestCases@17030a6]" name="handlingMultipleWindows" duration-ms="30844" started-at="2020-03-31T18:30:50 IST" finished-at="2020-03-31T18:31:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingMultipleWindows -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.AllTestCases@17030a6]" name="getResult" is-config="true" duration-ms="2" started-at="2020-03-31T18:31:21 IST" finished-at="2020-03-31T18:31:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingMultipleWindows status=SUCCESS method=AllTestCases.handlingMultipleWindows()[pri:0, instance:testCases.AllTestCases@17030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.AllTestCases@17030a6]" name="afterTest" is-config="true" duration-ms="2337" started-at="2020-03-31T18:31:21 IST" finished-at="2020-03-31T18:31:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCases.AllTestCases -->
+    </test> <!-- Test Case1 -->
+  </suite> <!-- AllTestsSuite -->
+</testng-results>

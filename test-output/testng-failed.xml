@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteClassesExample]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AllTestsSuite]">
   <listeners>
     <listener class-name="retryAnalyser.MyTransformer"/>
   </listeners>
@@ -8,15 +8,17 @@
     <classes>
       <class name="testCases.AllTestCases">
         <methods>
-          <include name="particularElementScreenshot"/>
-          <include name="dropdownMethod"/>
+          <include name="handlingMultipleWindows"/>
           <include name="afterTest"/>
+          <include name="brokenLinkMethod"/>
+          <include name="bootstrapDropdownMethod"/>
           <include name="beforeSuite"/>
           <include name="beforeMethod"/>
+          <include name="fullPageScreenshot"/>
           <include name="beforeTest"/>
           <include name="getResult"/>
         </methods>
       </class> <!-- testCases.AllTestCases -->
     </classes>
   </test> <!-- Test Case1(failed) -->
-</suite> <!-- Failed suite [SuiteClassesExample] -->
+</suite> <!-- Failed suite [AllTestsSuite] -->
