@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-AllTestsSuite">
-              <span class="suite-name border-passed">AllTestsSuite</span>
+              <span class="suite-name border-skipped">AllTestsSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods,  2 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-AllTestsSuite" class="hide-methods skipped suite-AllTestsSuite"> (hide)</a> <!-- hide-methods skipped suite-AllTestsSuite -->
+                      <a href="#" panel-name="suite-AllTestsSuite" class="show-methods skipped suite-AllTestsSuite"> (show)</a> <!-- show-methods skipped suite-AllTestsSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-AllTestsSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AllTestsSuite" title="testCases.AllTestCases" hash-for-method="bootstrapDropdownMethod">bootstrapDropdownMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AllTestsSuite" title="testCases.AllTestCases" hash-for-method="bootstrapDropdownMethod">bootstrapDropdownMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-AllTestsSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -132,6 +151,64 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-AllTestsSuite" class="panel AllTestsSuite">
+          <div class="suite-AllTestsSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.AllTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bootstrapDropdownMethod">
+                  </a> <!-- bootstrapDropdownMethod -->
+                  <span class="method-name">bootstrapDropdownMethod</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.003
+  (Session info: chrome=80.0.3987.149)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-UEKOIJ6&apos;, ip: &apos;10.133.60.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\91829\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7313126d5150f77a1615e308e64b2254
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at testCases.AllTestCases.bootstrapDropdownMethod(AllTestCases.java:92)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bootstrapDropdownMethod">
+                  </a> <!-- bootstrapDropdownMethod -->
+                  <span class="method-name">bootstrapDropdownMethod</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.011
+  (Session info: chrome=80.0.3987.149)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-UEKOIJ6&apos;, ip: &apos;10.133.60.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\91829\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7313126d5150f77a1615e308e64b2254
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at testCases.AllTestCases.bootstrapDropdownMethod(AllTestCases.java:92)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTestsSuite-class-skipped -->
           <div class="suite-AllTestsSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -223,28 +300,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'fullPageScreenshot')
+data.setCell(0, 1, 'brokenLinkMethod')
 data.setCell(0, 2, 'testCases.AllTestCases')
-data.setCell(0, 3, 32581);
+data.setCell(0, 3, 49480);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'brokenLinkMethod')
+data.setCell(1, 1, 'fullPageScreenshot')
 data.setCell(1, 2, 'testCases.AllTestCases')
-data.setCell(1, 3, 30904);
+data.setCell(1, 3, 48694);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'handlingMultipleWindows')
 data.setCell(2, 2, 'testCases.AllTestCases')
-data.setCell(2, 3, 30844);
+data.setCell(2, 3, 31406);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'bootstrapDropdownMethod')
 data.setCell(3, 2, 'testCases.AllTestCases')
-data.setCell(3, 3, 10017);
+data.setCell(3, 3, 25234);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'bootstrapDropdownMethod')
+data.setCell(4, 2, 'testCases.AllTestCases')
+data.setCell(4, 3, 21944);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'bootstrapDropdownMethod')
+data.setCell(5, 2, 'testCases.AllTestCases')
+data.setCell(5, 3, 20026);
 window.suiteTableData['AllTestsSuite']= { tableData: data, tableDiv: 'times-div-AllTestsSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-AllTestsSuite">
               </div> <!-- times-div-AllTestsSuite -->
             </div> <!-- times-div -->
@@ -277,59 +362,83 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">250 ms</span>
+                <span class="method-start">268 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void testCases.AllTestCases.bootstrapDropdownMethod())</span>
-                <span class="method-start">31573 ms</span>
+                <span class="method-start">39018 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">bootstrapDropdownMethod</span>
-                <span class="method-start">31786 ms</span>
+                <span class="method-start">39110 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=bootstrapDropdownMethod status=SKIP method=AllTestCases.bootstrapDropdownMethod()[p...)</span>
+                <span class="method-start">61189 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testCases.AllTestCases.bootstrapDropdownMethod())</span>
+                <span class="method-start">61193 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bootstrapDropdownMethod</span>
+                <span class="method-start">61194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=bootstrapDropdownMethod status=SKIP method=AllTestCases.bootstrapDropdownMethod()[p...)</span>
+                <span class="method-start">81221 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testCases.AllTestCases.bootstrapDropdownMethod())</span>
+                <span class="method-start">81223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bootstrapDropdownMethod</span>
+                <span class="method-start">81225 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=bootstrapDropdownMethod status=SUCCESS method=AllTestCases.bootstrapDropdownMethod(...)</span>
-                <span class="method-start">41820 ms</span>
+                <span class="method-start">106459 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void testCases.AllTestCases.brokenLinkMethod())</span>
-                <span class="method-start">41822 ms</span>
+                <span class="method-start">106461 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">brokenLinkMethod</span>
-                <span class="method-start">41823 ms</span>
+                <span class="method-start">106462 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=brokenLinkMethod status=SUCCESS method=AllTestCases.brokenLinkMethod()[pri:0, insta...)</span>
-                <span class="method-start">72728 ms</span>
+                <span class="method-start">155942 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void testCases.AllTestCases.fullPageScreenshot() throws java.io.IOException)</span>
-                <span class="method-start">72730 ms</span>
+                <span class="method-start">155945 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">fullPageScreenshot</span>
-                <span class="method-start">72731 ms</span>
+                <span class="method-start">155946 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=fullPageScreenshot status=SUCCESS method=AllTestCases.fullPageScreenshot()[pri:0, i...)</span>
-                <span class="method-start">105312 ms</span>
+                <span class="method-start">204640 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void testCases.AllTestCases.handlingMultipleWindows() throws java.lang.Exception)</span>
-                <span class="method-start">105315 ms</span>
+                <span class="method-start">204643 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">handlingMultipleWindows</span>
-                <span class="method-start">105316 ms</span>
+                <span class="method-start">204649 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=handlingMultipleWindows status=SUCCESS method=AllTestCases.handlingMultipleWindows(...)</span>
-                <span class="method-start">136161 ms</span>
+                <span class="method-start">236056 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">136190 ms</span>
+                <span class="method-start">236062 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,14 +1,18 @@
-2020-03-31 18:03:921 INFO  TestBase:64 - Initialize WebDriver: 1219704
-2020-03-31 18:03:127 INFO  TestBase:66 - Initialize Browser : Chrome 
-2020-03-31 18:03:345 INFO  TestBase:77 - **************bootstrapDropdownMethod  Started***************
-2020-03-31 18:03:363 INFO  AllTestCases:107 - Bootstrap Dropdown Method is finished...
-2020-03-31 18:03:382 INFO  TestBase:106 - **************bootstrapDropdownMethod  Finished ***************
-2020-03-31 18:03:383 INFO  TestBase:77 - **************brokenLinkMethod  Started***************
-2020-03-31 18:03:287 INFO  AllTestCases:151 - Broken links are there in a webpage 
-2020-03-31 18:03:290 INFO  TestBase:106 - **************brokenLinkMethod  Finished ***************
-2020-03-31 18:03:291 INFO  TestBase:77 - **************fullPageScreenshot  Started***************
-2020-03-31 18:03:871 INFO  AllTestCases:195 - Fullpage Screenshot is takened
-2020-03-31 18:03:874 INFO  TestBase:106 - **************fullPageScreenshot  Finished ***************
-2020-03-31 18:03:877 INFO  TestBase:77 - **************handlingMultipleWindows  Started***************
-2020-03-31 18:03:720 INFO  AllTestCases:70 - Handling Multiple Tabs is finished...
-2020-03-31 18:03:723 INFO  TestBase:106 - **************handlingMultipleWindows  Finished ***************
+2020-03-31 19:03:303 INFO  TestBase:57 - Initialize WebDriver: 1219704
+2020-03-31 19:03:723 INFO  TestBase:59 - Initialize Browser : Chrome 
+2020-03-31 19:03:964 INFO  TestBase:70 - **************bootstrapDropdownMethod  Started***************
+2020-03-31 19:03:46 INFO  TestBase:99 - **************bootstrapDropdownMethod  Finished ***************
+2020-03-31 19:03:49 INFO  TestBase:70 - **************bootstrapDropdownMethod  Started***************
+2020-03-31 19:03:78 INFO  TestBase:99 - **************bootstrapDropdownMethod  Finished ***************
+2020-03-31 19:03:80 INFO  TestBase:70 - **************bootstrapDropdownMethod  Started***************
+2020-03-31 19:03:314 INFO  AllTestCases:107 - Bootstrap Dropdown Method is finished...
+2020-03-31 19:03:316 INFO  TestBase:99 - **************bootstrapDropdownMethod  Finished ***************
+2020-03-31 19:03:318 INFO  TestBase:70 - **************brokenLinkMethod  Started***************
+2020-03-31 19:03:796 INFO  AllTestCases:151 - Broken links are there in a webpage 
+2020-03-31 19:03:799 INFO  TestBase:99 - **************brokenLinkMethod  Finished ***************
+2020-03-31 19:03:801 INFO  TestBase:70 - **************fullPageScreenshot  Started***************
+2020-03-31 19:03:494 INFO  AllTestCases:195 - Fullpage Screenshot is takened
+2020-03-31 19:03:497 INFO  TestBase:99 - **************fullPageScreenshot  Finished ***************
+2020-03-31 19:03:499 INFO  TestBase:70 - **************handlingMultipleWindows  Started***************
+2020-03-31 19:03:911 INFO  AllTestCases:70 - Handling Multiple Tabs is finished...
+2020-03-31 19:03:912 INFO  TestBase:99 - **************handlingMultipleWindows  Finished ***************
