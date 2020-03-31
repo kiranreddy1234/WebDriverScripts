@@ -8,14 +8,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
-
 import javax.imageio.ImageIO;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import helperClasses.LoggerHelper;
 import ru.yandex.qatools.ashot.AShot;
@@ -111,7 +107,7 @@ public class AllTestCases extends TestBase {
 		log.info("Bootstrap Dropdown Method is finished...");
 	}
 	
-	@Test
+	/*@Test
 	public void dropdownMethod() {
 		
 		driver.get("https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html");
@@ -132,7 +128,7 @@ public class AllTestCases extends TestBase {
 		}
 	
 		log.info("Get all dropDown Values is finished... ");
-	}
+	}*/
 	
 	@Test
 	public void brokenLinkMethod() {

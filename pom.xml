@@ -142,7 +142,7 @@
 					</systemPropertyVariables> -->
 
 					<suiteXmlFiles>
-						<suiteXmlFile>${SuiteXmlFile}</suiteXmlFile>
+						<suiteXmlFile>TestNgSuiteFiles\SuiteFile.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
